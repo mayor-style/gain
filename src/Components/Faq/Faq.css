@@ -112,3 +112,22 @@ h1{
         padding: 50px;
     }
 }
+
+@media(max-width:500px){
+    .FaqSec .right .header h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .FaqSec .left img{
+        height: 300px;
+    }
+
+    .Faq{
+        padding: 35px;
+    }
+
+    .Faq .right .content .FAQcard .answer {
+        display: block;
+    }
+}

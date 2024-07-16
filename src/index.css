@@ -1,0 +1,23 @@
+*{margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+ font-family: "Montserrat";
+  text-decoration: none;
+  list-style: none;
+
+
+}
+
+
+
+body {
+  background-color:hsl(242 63% 12%) ;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+}
+
+span{
+  color: linear-gradient(90deg, hsl( 258 66% 45%)  36.85%, hsl(258 97% 35%) 60.47%);
+}
+

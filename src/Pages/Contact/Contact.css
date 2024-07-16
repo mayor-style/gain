@@ -1,0 +1,82 @@
+.contact{
+    height: 100%;
+    width: 100%;
+}
+
+.contactSec{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.contact-Content{
+    height: 730px;
+    width:80%;
+    position: relative;
+    border-radius: 30px;
+    background: hsl(240 55% 17%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  80px;
+    gap: 70px;
+    color: white;
+}
+
+.contact-Content::before{
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: darkblue;
+    border-radius: 30px;
+    left: -20px;
+    top: -20px;
+    bottom: 20px;
+    z-index: -1;
+ 
+    transform: rotate(3.5deg);
+}
+
+.contact-Content .header{
+    font-size: 22px;
+    padding-top: 100px;
+}
+
+.contact-Content p{
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.contact-Content .left form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px 0px 100px 0px;
+    
+}
+
+.contact-Content .left input{
+    padding: 10px;
+    border-radius: 7px;
+    border: solid 1px hsl(0 0% 225%/ .1);
+    background: transparent;
+    outline:rgb(36, 36, 212) ;
+    color: white;
+    input-security: auto;
+}
+
+textarea{
+    border: solid 1px hsl(0 0% 225%/ .1);
+}
+
+.contact-Content .right iframe{
+    height: 600px;
+    border-radius: 20px;    
+    width: 350px;
+}
+

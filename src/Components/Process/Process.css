@@ -1,0 +1,35 @@
+.process{
+    height: 100%;
+    width: 100%;
+    padding: 70px;
+    color: white;
+    text-align: center;
+}
+
+.header h1{
+ font-size: 45px;
+}
+
+.processSec .content{
+    display: flex;
+    padding: 60px 0px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.processSec .content .contentcard{
+    text-align: center;
+    background: url(../../images/process2.png);
+    padding: 50px 40px;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  
+}
+
+.processSec .content .contentcard h2{
+    font-size: 20px;
+}

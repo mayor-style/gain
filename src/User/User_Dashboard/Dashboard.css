@@ -1,0 +1,316 @@
+.dashboard{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.dashboardSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.dashboardSec .right{
+    width: 75%; 
+   left: 12%;
+   position: relative;  
+}
+
+.dashboardSec .right header{
+    background: linear-gradient(90deg, hsl( 258 66% 45%)  36.85%, hsl(258 97% 35%) 60.47%);
+    height: 80px;
+    padding: 15px 20px;
+    display: flex;
+    width: 75%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboardSec .right .right_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.userInfo h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.userDP{
+    background-color: purple;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 25%;
+    overflow-y: hidden;
+    padding:50px 20px 20px 20px ;
+    left: 0;
+    border-right: solid 1px hsl(0 0% 100% / 0.1);
+}
+
+aside:hover{
+    overflow-y: auto;
+    
+}
+
+
+.dashboardSec .right .content{
+  padding-top: 80px;
+}
+
+
+::-webkit-scrollbar{
+    width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: hsl(0 0% 100% /.25);
+    border: 0px solid transparent;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-button{
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track{
+    background: hsl(0 0% 100% /.15);
+}
+
+aside header h1{
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+aside .content h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+aside .content .deposit_bal, .wallet_bal{
+    background-color:  hsl(0 0% 100% /0.09);
+    padding: 10px;
+    backdrop-filter: 15px;
+    border-radius: 7px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+aside .content .deposit_bal p, .wallet_bal p{
+    color: rgba(225, 225, 225, 0.7);
+    font-size: 16px;
+}
+
+aside .btns button{
+    padding: 15px 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color:hsl(0 0% 100% /0.09);
+}
+
+
+aside .btns{
+    border-bottom: 1px solid hsl(0 0% 100% / 0.1);
+    padding-bottom: 40px;
+}
+aside .btns button:nth-child(1){
+    background:linear-gradient(90deg, hsl( 258 66% 45%)  36.85%, hsl(258 97% 35%) 60.47%);
+    transition: .2s;
+}
+
+aside .btns button:nth-child(1):hover{
+    background:linear-gradient( hsl(258 97% 35%) 60.47%, 90deg, hsl( 258 66% 45%) 36.85%);
+}
+
+:any-link{
+    color: white;
+}
+
+hr{
+    font-weight: 100;
+    border: solid .1px gray;
+    margin-top: 30px;
+}
+
+.footer {
+    font-size: 16px;
+    font-weight: 500;
+    background: linear-gradient(90deg, hsl( 258 66% 45%)  36.85%, hsl(258 97% 35%) 60.47%);
+    margin-top: 30px;
+    padding: 15px;
+    width: 100%;
+   
+}
+
+.right .content .firstCardCon .Card{
+    padding: 30px;
+    border-radius: 6px;
+    background: url(../../images/dashboard-shape1.png);
+    background-position: 100%;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 30px;
+    width: 450px;
+    background-repeat: no-repeat;
+}
+
+.right .content .firstCardCon .Card .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.firstCardCon .Card .top .icon{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    border-radius: 30px;
+}
+
+.firstCardCon .Card .bottom div{
+    border: solid 1px hsl(0 0% 100% /0.20);
+    padding: 10px;
+    width: 110px;
+    border-radius: 5px;
+}
+
+
+.firstCardCon .Card .bottom div p{
+    font-size: 12px;
+}
+
+
+.firstCardCon .Card .bottom div h3{
+    font-size: 14px;
+}
+
+.firstCardCon .Card .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.firstCardCon{
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstCardCon .Card::before{
+    content: '';
+    position: absolute;
+    border-radius: 6px;
+    background-color:#141443;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+}
+
+.lastCardCon .main .icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.lastCardCon .main div{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   column-gap: 15px;
+    justify-content: start;
+   
+}
+.lastCardCon .main div .txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.lastCardCon .main div .txt p{
+    font-weight: 500;
+}
+
+.lastCardCon .main div .txt span{
+    font-size: 12px;
+    color: rgba(225, 225, 225, 0.7);
+}
+
+.lastCardCon .content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lastCardCon .Card{
+    margin-top: 30px;
+    height: 100%;
+    width: 450px;
+    padding: 30px;
+    background-color: #141443;
+    border-radius: 7px;
+}
+
+.lastCardCon .Card h2{
+    font-size: 20px;
+}
+
+.lastCardCon .main{
+    border-bottom: solid 6px;
+    padding-bottom: 15px;
+    border-radius: 2px;
+}
+
+.lastCardCon{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    flex-direction: row;
+}

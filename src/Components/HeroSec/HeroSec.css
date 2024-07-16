@@ -1,0 +1,121 @@
+.HeroMain-Sec{
+    height: 100%;
+    width: 100%;
+    background: url(../../images/Hero_Sec.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(-3%);
+    z-index: 5;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.HeroMain-Sec::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1000;
+    background-color: hsl(242 63% 12% / 0.5) ;
+    backdrop-filter: 20px;
+}
+
+.HeroSec{
+   display: flex;
+   height: 100vh;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   padding-left: 75px;
+
+}
+
+.HeroSec h1{
+    font-size: 50px;
+    justify-content: center;
+    width: 50%;
+}
+
+.HeroSec button{
+    padding: 10px 30px;
+    color: white;
+    font-weight: 500;
+    background:linear-gradient(90deg, hsl( 258 66% 45%)  36.85%, hsl(258 97% 35%) 60.47%);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.HeroSec .btns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.HeroSec::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background: url(../../images/train.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: train infinite 7s ease;
+   
+}
+
+@keyframes train {
+  0%{
+    transform: translateX(-30%);
+ }   
+ 100%{
+    transform: translateX(500%);
+ }
+
+}
+
+@media (max-width:1015px){
+    .HeroSec h1{
+        font-size: 42px;
+        font-weight: 650;
+    }
+
+    .HeroSec{
+        height: 90vh;
+    }
+
+    .HeroSec::after{
+        width: 300px;
+    }
+}
+
+@media (max-width:750px) {
+    .HeroSec h1{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .HeroSec{
+        height: 75vh;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+@media (max-width:500px){
+    .HeroSec{
+        height: 60vh;
+    }
+}

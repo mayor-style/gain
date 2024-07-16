@@ -1,0 +1,107 @@
+.Signup{
+    height: 100%;
+    width: 100%;
+}
+
+.SignupSec{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.Signup-Content::before{
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: darkblue;
+    border-radius: 30px;
+    margin-right: 100px;
+    z-index: -1;
+    margin-bottom:20px ;
+    transform: rotate(3.5deg);
+}
+
+.Signup-Content{
+    height: 670px;
+    width:80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    background: hsl(240 55% 17%);
+    padding:  80px 30px;
+    color: white;
+}
+
+.Signup-Content .header{
+    font-size: 22px;
+    padding-top: 100px;
+}
+
+.Signup-Content p{
+    padding-bottom: 30px;
+    padding-top: 15px;
+    color: rgba(225, 225, 225, 0.9);
+}
+
+.Signup-Content .form-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px;
+    padding: 0px 0px 20px 0px;
+    
+}
+
+.Signup-Content input{
+    padding: 10px;
+    border-radius: 7px;
+    border: solid 1px hsl(0 0% 225%/ .1);
+    background: transparent;
+    outline:rgb(36, 36, 212) ;
+    color: white;
+    input-security: auto;
+}
+
+.Signup-Content form div{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.Signup-Content .login-link{
+    color: white;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.Signup-Content .last .terms-condition{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.Signup-Content form .last{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    
+}
+
+.last input{
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.last .terms-condition input{
+    height: 25px;
+    width: 25px;
+    border-radius: 0;
+    background-color: transparent;
+}

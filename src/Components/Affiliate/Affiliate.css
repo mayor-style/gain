@@ -1,0 +1,106 @@
+.Affiliate{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+
+.AffiliateSec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+    
+}
+
+.AffiliateSec .right{
+    width: 50%;
+}
+
+.AffiliateSec .right img{
+    height: 420px;
+    
+}
+
+.AffiliateSec .left{
+    width: 50%;
+}
+
+.AffiliateSec .left .contentCon{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.AffiliateSec .left .contentCon .card{
+    width:330px ;
+    padding: 20px;
+    background: hsl(240 55% 17%);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+}
+
+.AffiliateSec .left .contentCon .card h2{
+    padding-bottom: 7px;
+    font-size: 18px;
+   
+}
+
+.AffiliateSec .left .contentCon .card p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.AffiliateSec .left .content{
+    padding-left: 15px;
+}
+
+.AffiliateSec .left .icon span{
+    font-size: 30px;
+    background:linear-gradient(90deg, hsl( 258 66% 45%)  36.85%, hsl(258 97% 35%) 60.47%);
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.AffiliateSec .left .header h1{
+    font-size: 40px;
+    color: white;
+    padding: 50px 0px;
+}
+
+@media (max-width:900px){
+    .AffiliateSec{
+        flex-direction: column;
+    }
+
+    .AffiliateSec .right, .AffiliateSec .left{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .AffiliateSec .left .contentCon .card{
+        width: 100%;
+    }
+
+    .AffiliateSec .right img{
+        height: 450px;
+    }
+}
+
+@media (min-width:1200px){
+    .AffiliateSec .right img{
+        height: 500px;
+    }
+}
+
+@media (max-width:500px) {
+    .AffiliateSec .right img{
+        height: 300px;
+    }
+}

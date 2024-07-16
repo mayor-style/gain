@@ -81,6 +81,9 @@ h1{
     .Faq .right .content .FAQcard .question h2{
         font-size: 15px;
     }
+
+    .Faq .right .content .FAQcard .answer{
+        font-size:14px;
 }
 
 @media (max-width:850px){

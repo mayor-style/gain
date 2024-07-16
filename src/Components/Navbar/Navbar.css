@@ -3,6 +3,7 @@ nav{
     width: 100%;
     padding: 18px 0px 0px 0px;
     display: flex;
+    overflow:hidden;
     justify-content: center;
     align-items: center;
 }
@@ -80,8 +81,8 @@ nav{
     }
 
     .Navbar{
-        justify-content: space-between;
-        padding: 0px 80px 0px 80px;
+        justify-content: space-around;
+        padding: 0px 8px 0px 0px;
     }
 
     .Navbar{

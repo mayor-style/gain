@@ -104,4 +104,31 @@
     .AffiliateSec .right img{
         height: 300px;
     }
+
+    .AffiliateSec .left .contentCon .card{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .AffiliateSec .left .header h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .AffiliateSec .right, .AffiliateSec .left{
+        width: 100%;
+    }
+
+    .AffiliateSec .left .contentCon .card h2{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .AffiliateSec .left .contentCon .card p{
+        font-size: 14px;
+    }
+
+    .Affiliate{
+        padding: 35px;
+    }
 }

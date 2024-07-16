@@ -176,4 +176,25 @@
     .AboutUs-Sec .content .left img{
         height: 300px;
     }
+
+    .AboutUs-Sec .content h1{
+        font-size: 30px;
+    }
+
+    .AboutUs-Sec .content p{
+        font-size: 16px;
+    }
+
+    .AboutUs-Sec .content ul li{
+        font-size: 14px;
+    }
+
+    .AboutUs-Sec .content .header h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .Main-AboutUs{
+        padding: 0px;
+    }
 }
